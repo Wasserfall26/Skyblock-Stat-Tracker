@@ -7,7 +7,7 @@ from PyQt6.QtWidgets import (QApplication, QWidget, QVBoxLayout, QHBoxLayout, QL
 from PyQt6.QtCore import Qt, QTimer
 from collections import deque
 
-HYPIXEL_KEY = "283cd668-95f7-4d83-8929-5e5c8aadfb2b"
+HYPIXEL_KEY = "HYPIXEL_API_KEY"
 RECENT_PLAYERS_FILE = "recent_players.json"
 
 # XP Curves for Skills
@@ -1258,4 +1258,5 @@ if __name__ == '__main__':
         QTimer.singleShot(500, window.check_player_ui)
 
     window.show()
+
     sys.exit(app.exec())
