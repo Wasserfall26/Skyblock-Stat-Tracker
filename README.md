@@ -28,7 +28,9 @@ to a python skript, which uses the API
 to tell you about the Player.
 
 By default you press P to open or in 
-chat hold ALT + Click on Name
+chat hold ALT + Click on Name.
+Alternatively type "/stopen [name]"
+to open the tracker with that name.
 
 
 If you have any suggestions feel free 
